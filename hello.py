@@ -17,11 +17,11 @@ def logs(func):
 
 # invoke the decorator function using hello function
 @logs
-def hello(x):
+def hello1(x):
     print("Hello World! {}".format(x))
 
 #invoke the function
-hello(3)
+hello1(3)
 
 # write a function that yields a generator that randomly picks between three types of fruits
 def fruits_generator():
