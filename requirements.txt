@@ -6,3 +6,4 @@ uvicorn[standard]
 requests
 openai
 click
+boto3
