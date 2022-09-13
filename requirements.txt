@@ -4,4 +4,6 @@ pylint
 pytest
 uvicorn[standard]
 requests
+os
 openai
+click
