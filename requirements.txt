@@ -7,3 +7,15 @@ requests
 openai
 click
 boto3
+databricks
+databricks-sql-connector
+click
+databricks-cli
+ipython
+databricks-sql-connector
+databricks-connect==10.4.*
+dask
+dask[distributed]
+jupyter
+s3fs
+bokeh
