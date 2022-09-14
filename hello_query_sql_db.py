@@ -13,7 +13,7 @@ def cli():
 @cli.command()
 @click.option(
     "--query",
-    default="SELECT * FROM diabetes LIMIT 3",
+    default="SELECT * FROM health_indicator_diabetes LIMIT 3",
     help="SQL query to execute",
 )
 def cli_query(query):
