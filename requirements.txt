@@ -18,3 +18,6 @@ dask[distributed]
 jupyter
 s3fs
 bokeh
+hvplot
+seaborn
+matplotlib
