@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"Do you want to know more?": "You can type 'My choice' in the URL to see the potential health indicators for diabetes"}
+    return {"Do you want to know more?": "You can type 'My_choices' in the URL to see the potential health indicators for diabetes"}
 
 @app.get("/My_choices/")
 async def My_choices():
